@@ -1,0 +1,61 @@
+html, body {
+  margin: 0; /* Убираем отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  overflow: hidden; /* Скрываем полосы прокрутки */
+  height: 100%; /* Устанавливаем высоту на 100% для body */
+}
+
+
+body {
+  font: 13pt 'Inter Tight';
+  position: relative; 
+  z-index: 1; 
+}
+
+#controls {
+  position: relative; 
+  z-index: 2;
+}
+
+#mynetwork {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+
+.inter-tight-uniqueclass {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#projectInfo {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.gradient-background {
+  background: radial-gradient(ellipse at center, #F0D384, #ffff 80%);
+  height: 100vh;
+  width: 100vw; 
+}
+
+
+/* @font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/CoFoGothic-Medium-Trial.otf');
+} */
+

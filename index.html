@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golova</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body class="gradient-background">
+    <div id="controls">
+        <input type="checkbox" id="naming" checked onchange="toggleCategory('naming')"> Naming<br>
+        <input type="checkbox" id="physical" checked onchange="toggleCategory('physical')"> Physical Products<br>
+        <input type="checkbox" id="identity" checked onchange="toggleCategory('identity')"> Identity<br>
+        <input type="checkbox" id="strategy" checked onchange="toggleCategory('strategy')"> Strategy<br>
+      </div>
+    <!-- <p>golova</p> -->
+    <div id="mynetwork"></div>
+    <script src="main.js"></script>
+
+
+    <div id="projectInfo">
+        <p>info</p>
+    </div>
+
+</body>
+</html>
+
+
